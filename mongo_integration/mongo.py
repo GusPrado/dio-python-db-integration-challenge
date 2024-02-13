@@ -1,7 +1,8 @@
 import datetime
 import pymongo as pyM
 
-client = pyM.MongoClient("mongodb+srv://gusprado:uSAK2HE9C2bftfVk@atlas-test.8xzpaox.mongodb.net/")
+#VOCE DEVE PREVIAMENTE CRIAR UM CLUSTER DE MONGODB NO MONGO ATLAS
+client = pyM.MongoClient("mongodb+srv://<YOUR_USERNAME_HERE>:<YOUR_PASSWORD_HERE>@atlas-test.8xzpaox.mongodb.net/")
 
 
 db = client.test
